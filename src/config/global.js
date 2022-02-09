@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Consideraciones para el establecimiento y operación de unidades productivas pecuarias',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
+      'Conseguir unidades pecuarias organizadas conforme a los parámetros técnicos requiere de un trabajo previo que implica, entre otras cosas, la identificación del tipo de explotación que se llevará a cabo, el conocimiento de la normatividad aplicable, la definición de los recursos disponibles y el conocimiento de los procesos que conlleva la implementación de este tipo de sistemas en diversos entornos rurales. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -24,20 +24,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Tema-1',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Clasificación',
+            hash: 'clasificacion',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Características',
+            hash: 'caracteristicas',
           },
           {
             icono: 'far fa-file-alt',
