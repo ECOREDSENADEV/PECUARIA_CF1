@@ -245,9 +245,62 @@
           .col-md-6
             figure
               img(src='@/assets/curso/tema1/1_4-insectos.png', alt='Insectos y anélidos', class="img-fluid rounded-start")            
-                
 
-    //- Muestras
+    ol.lista-ol--cuadro
+      li.fw-bold
+        .lista-ol--cuadro__vineta
+          span.fw-bold 
+        | Aplicabilidad de los registros
+
+    p Los registros son muy útiles para evaluar y monitorear la situación ambiental del agroecosistema, entre otras aplicaciones:
+
+    .row.mt-5
+      .col-md-5
+        figure
+          img(src='@/assets/curso/tema1/1_4-aplicabilidad.png', alt='Aplicabilidad de los registros', class="img-fluid rounded-start")            
+      .col.p-4
+        ul.lista-ul--color
+          li 
+            i.fas.fa-check
+            | Sirven como historial ambiental del agroecosistema.
+          li 
+            i.fas.fa-check
+            | Permite medir el impacto positivo o negativo de las prácticas de manejo ecológico o agroecológico, o el avance del agroecosistema cuando se avanza en un proceso de reconversión o transición
+          li 
+            i.fas.fa-check
+            | Permiten observar cambios bruscos en el agroecosistema y analizar la fuente del problema. Por ejemplo: un descenso en la población de abejas puede indicar alguna fuente de contaminación con agroquímicos.
+          li 
+            i.fas.fa-check
+            | Son documentos válidos tenidos en cuenta en procesos de certificación ecológica o de esquemas de sostenibilidad. 
+          li 
+            i.fas.fa-check
+            | Sirven para comparar el agroecosistema con otros aledaños.
+          li 
+            i.fas.fa-check
+            | Son evidencias útiles para procesos pedagógicos o de investigación. 
+          li 
+            i.fas.fa-check
+            | Son un insumo esencial para graficar y procesar la información ambiental del agroecosistema, y en general del plan de manejo aplicado.
+
+    Separador
+
+    #explotaciones.titulo-segundo.color-acento-contenido
+      h2 1.5 Parámetros productivos
+
+    .row
+      .col-md-7
+        p Dependiendo de lo que se quiera medir al interior de la explotación pecuaria se pueden identificar y cuantificar cuantos parámetros productivos se consideren necesarios, para lo cual es necesario diseñar y diligenciar registros que permitan hacer un seguimiento detallado del comportamiento de estos importantes indicadores.
+        br
+        ol.lista-ol--cuadro
+          li.fw-bold
+            .lista-ol--cuadro__vineta
+              span.fw-bold 
+            | Parámetros productivos
+        p Los parámetros productivos son variables cuantificables y observables que permiten analizar detalladamente el comportamiento de las unidades pecuarias en cualquiera de sus etapas, estos permiten evaluar los rendimientos y, además, facilitar la toma de decisiones administrativas teniendo en cuenta factores técnicos y productivos. Algunos de los parámetros productivos que se pueden medir al interior de las principales explotaciones pecuarias son los siguientes:
+
+
+    Separador
+    Muestras
 </template>
 
 <script>
