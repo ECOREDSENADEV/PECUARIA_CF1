@@ -42,14 +42,14 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Componentes',
+            hash: 'componentes',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
+            titulo: 'Principales explotaciones pecuarias',
+            hash: 'explotaciones',
           },
           {
             icono: 'far fa-file-alt',

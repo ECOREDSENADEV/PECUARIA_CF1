@@ -8,7 +8,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    .bloque-texto-g.m-5.color-secundario.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.m-5.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/introduccion/img.jpg')})`}"
       )
