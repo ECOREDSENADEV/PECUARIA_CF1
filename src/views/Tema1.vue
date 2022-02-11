@@ -297,10 +297,206 @@
               span.fw-bold 
             | Parámetros productivos
         p Los parámetros productivos son variables cuantificables y observables que permiten analizar detalladamente el comportamiento de las unidades pecuarias en cualquiera de sus etapas, estos permiten evaluar los rendimientos y, además, facilitar la toma de decisiones administrativas teniendo en cuenta factores técnicos y productivos. Algunos de los parámetros productivos que se pueden medir al interior de las principales explotaciones pecuarias son los siguientes:
+      .col-md-5
+        figure
+          img(src='@/assets/curso/tema1/1_5-parametros-productivos.png', alt='Parámetros productivos', class="img-fluid rounded-start")
 
+    br
+
+    TabsC.color-acento-contenido
+      .py-3.py-md-4(titulo="Parámetros productivos bovinos, bufalinos, ovinos y caprinos")
+        .row.justify-content-center: .col-md-10: p.fw-bold Parámetros productivos bovinos, bufalinos, ovinos y caprinos
+        .row.justify-content-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema1/1_5-tab-parametros-bovinos.png', alt='Parámetros productivos bovinos, bufalinos, ovinos y caprinos', class="img-fluid rounded-start")      
+          .col-md-7
+            .tabla-a.color-acento-contenido.mb-5 
+              table
+                thead
+                  tr
+                    th Especie
+                    th Par&aacute;metro productivo
+                    th Unidad
+                tbody
+                  tr
+                    td(rowspan='11') Bovinos - bufalinos - ovinos - caprinos
+                    td Peso promedio al nacer.
+                    td Kg
+                  tr
+                    td Peso promedio al destete.
+                    td Kg
+                  tr
+                    td Edad promedio al destete.
+                    td Meses
+                  tr
+                    td N&uacute;mero de terneros.
+                    td N&uacute;mero de animales
+                  tr
+                    td N&uacute;mero de terneras.
+                    td N&uacute;mero de animales
+                  tr
+                    td Porcentaje de nacimiento de hembras.
+                    td Porcentaje
+                  tr
+                    td Mortalidad anual de lactantes.
+                    td N&uacute;mero de animales
+                  tr
+                    td Mortalidad anual de adultos.
+                    td N&uacute;mero de animales
+                  tr
+                    td Producci&oacute;n de leche diaria.
+                    td Litros
+                  tr
+                    td N&uacute;mero mensual de partos.
+                    td N&uacute;mero de partos
+                  tr
+                    td Ganancia de peso mensual.
+                    td Kilogramos / mes
+      .py-3.py-md-4(titulo="Parámetros productivos para aves")
+        .row.justify-content-center: .col-md-10: p.fw-bold Parámetros productivos para aves
+        .row.justify-content-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema1/1_5-tab-parametros-aves.png', alt='Parámetros productivos para aves', class="img-fluid rounded-start")      
+          .col-md-7
+            .tabla-a.color-acento-contenido.mb-5 
+              table
+                thead
+                  tr
+                    th Especie
+                    th Par&aacute;metro productivo
+                    th Unidad
+                tbody
+                  tr
+                    td(rowspan='11') Aves
+                    td Aves que inician - aves que finalizan.
+                    td Número de animales
+                  tr
+                    td Mortalidad diaria.
+                    td Número de animales
+                  tr
+                    td Mortalidad acumulada.
+                    td Porcentaje
+                  tr
+                    td Peso corporal.
+                    td Gramos
+                  tr
+                    td Longitud del pico.
+                    td Milímetros
+                  tr
+                    td Longitud del tarso.
+                    td Centímetros
+                  tr
+                    td Consumo de alimento diario.
+                    td Gramos
+                  tr
+                    td Conversión de alimento.
+                    td Kilogramo / Kilogramo
+                  tr
+                    td Masa del huevo.
+                    td Gramos
+                  tr
+                    td Huevos día.
+                    td Número de huevos
+                  tr
+                    td Porcentaje de pérdida de huevos.
+                    td 
+      .py-3.py-md-4(titulo="Parámetros productivos para porcinos")
+        .row.justify-content-center: .col-md-10: p.fw-bold Parámetros productivos para porcinos
+        .row.justify-content-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema1/1_5-tab-parametros-porcinos.png', alt='Parámetros productivos para porcinos', class="img-fluid rounded-start")      
+          .col-md-7
+            .tabla-a.color-acento-contenido.mb-5 
+              table
+                thead
+                  tr
+                    th Especie
+                    th Par&aacute;metro productivo
+                    th Unidad
+                tbody
+                  tr
+                    td(rowspan='10') Porcinos
+                    td Edad a la primera monta.
+                    td Meses
+                  tr
+                    td Peso corporal.
+                    td Kilogramos
+                  tr
+                    td Conversión de alimento.
+                    td Kilogramos
+                  tr
+                    td Edad al sacrificio.
+                    td Días
+                  tr
+                    td Intervalo destete monta.
+                    td Meses
+                  tr
+                    td Abortos.
+                    td Número de abortos
+                  tr
+                    td Porcentaje de partos.
+                    td Porcentaje
+                  tr
+                    td Lechones nacidos vivos por camada.
+                    td Número de lechones
+                  tr
+                    td Lechones nacidos muertos.
+                    td Número de lechones
+                  tr
+                    td Partos/Cerda/Año.
+                    td Número de partos
+      .py-3.py-md-4(titulo="Parámetros productivos para especies menores")
+        .row.justify-content-center: .col-md-10: p.fw-bold Parámetros productivos para especies menores
+        .row.justify-content-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema1/1_5-tab-parametros-especies-menores.png', alt='Parámetros productivos para especies menores', class="img-fluid rounded-start")      
+          .col-md-7
+            .tabla-a.color-acento-contenido.mb-5 
+              table
+                thead
+                  tr
+                    th Especie
+                    th Par&aacute;metro productivo
+                    th Unidad
+                tbody
+                  tr
+                    td(rowspan='10') Especies menores (conejos - cuyes)
+                    td Edad destete.
+                    td Días
+                  tr
+                    td Peso crías al nacer.
+                    td Gramos
+                  tr
+                    td Número de crías al año.
+                    td Número de animales
+                  tr
+                    td Partos al año.
+                    td Número de partos
+                  tr
+                    td Peso.
+                    td Kilogramos
+                  tr
+                    td Camadas/hembra/año.
+                    td Número de camadas
+                  tr
+                    td Peso crías al destete.
+                    td Gramos
+                  tr
+                    td Edad al sacrificio.
+                    td Días
+                  tr
+                    td Madurez sexual machos.
+                    td Días
+                  tr
+                    td Madurez sexual hembras.
+                    td Días
 
     Separador
-    Muestras
+    //- Muestras
 </template>
 
 <script>
