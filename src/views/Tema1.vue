@@ -1,13 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
@@ -284,7 +277,7 @@
 
     Separador
 
-    #explotaciones.titulo-segundo.color-acento-contenido
+    #parametros.titulo-segundo.color-acento-contenido
       h2 1.5 Parámetros productivos
 
     .row
@@ -496,16 +489,25 @@
                     td Días
 
     Separador
-    //- Muestras
+    #practicas.titulo-segundo.color-acento-contenido
+      h2 1.6 Buenas prácticas pecuarias
+
+    .bloque-texto-g.m-5.color-primario.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/1_6-buenas-practicas.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0: span.color-texto-uno Las buenas prácticas agrícolas y las buenas prácticas pecuarias son acciones encaminadas a la reducción de riesgos de deterioro del medio ambiente y de la contaminación cruzada de los productos agropecuarios; 
+        | a través de prácticas de manejo la higiénicas y seguras por parte de los trabajadores, contando con los elementos necesarios para tener procesos productivos donde se conserven los productos inocuos y saludables.
+        br
+
+
 </template>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),
