@@ -178,8 +178,8 @@
               p Están definidos por el tipo de actividad a realizar, el tipo de insumos a emplear, el modo de aplicación de los medicamentos y los riesgos asociados con dicha actividad.
               br
               p Deben ofrecer protección al trabajador para desarrollar su actividad.
-              .row-md-8
-                .col-4.p-0
+              .row
+                .col-6.p-0
                   ul.lista-ul--color
                     li 
                       i.fas.fa-check
@@ -193,7 +193,7 @@
                     li 
                       i.fas.fa-check
                       | Protección respiratoria.
-                .col-4.p-0
+                .col-6.p-0
                   ul.lista-ul--color
                     li 
                       i.fas.fa-check
