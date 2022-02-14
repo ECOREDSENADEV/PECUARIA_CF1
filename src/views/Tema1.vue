@@ -83,38 +83,38 @@
 
     .tarjeta.p-4.mb-5
       SlyderA.bg01
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
             p.pl-1 Entre las especies animales más empleadas en sistemas pecuarios están los ovinos, caprinos, equinos, porcinos, aves y mamíferos pequeños como conejos y cuyes. También se encuentran insectos, reptiles y anélidos, como la lombriz de tierra. 
        
           .col-md-6
             figure.p-4
               img(src='@/assets/curso/tema1/1_3-animal.png', alt='Especie animal').mr-1
               figcaption Especie animal
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
             p.pl-1 Es la fuente de energía que sostiene a los animales que hacen parte del sistema productivo. Puede ser natural, como en el caso de las praderas, o suplementada como se hace en sistemas intensivos avícolas, por ejemplo.
           .col-md-6
             figure.p-4
               img(src='@/assets/curso/tema1/1_3-alimento.png', alt='Alimento')
               figcaption Alimento
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
             h4.titulo-cuarto Alcance de la medición.
             p Son las construcciones o adecuaciones de infraestructura para el alojamiento de los animales o para facilitar las labores de manejo como ordeño, alimentación.
           .col-md-6
             figure.p-4
               img(src='@/assets/curso/tema1/1_3-instalaciones.png', alt='Instalaciones')
               figcaption Instalaciones
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
             p Son elementos que facilitan el manejo de la explotación pecuaria y que se utilizan para diversas labores. Tipos de equipos: ordeño mecánico, nebulización de medicamentos o ensilaje. Herramientas: fumigadora, tijera, pala, martillo.    
           .col-md-6
             figure.p-4
               img(src='@/assets/curso/tema1/1_3-equipos.png', alt='Equipos y herramientas')
               figcaption Equipos y herramientas
-        .row
-          .col-md-6.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-md-5.mb-4.mb-md-0
             p Corresponde al factor humano y consiste en la forma como se organizan, administran y disponen los componentes del sistema productivo. Igualmente, se relaciona con el desarrollo de las labores necesarias para su sostenimiento. 
           .col-md-6
             figure.p-4
@@ -487,6 +487,44 @@
                   tr
                     td Madurez sexual hembras.
                     td Días
+      .py-3.py-md-4(titulo="Parámetros productivos para peces")
+        .row.justify-content-center: .col-md-10: p.fw-bold Parámetros productivos para peces
+        .row.justify-content-center
+          .col-md-3
+            figure
+              img(src='@/assets/curso/tema1/1_5-tab-parametros-peces.png', alt='Parámetros productivos para peces', class="img-fluid rounded-start")      
+          .col-md-7
+            .tabla-a.color-acento-contenido.mb-5 
+              table
+                thead
+                  tr
+                    th Especie
+                    th Par&aacute;metro productivo
+                    th Unidad
+                tbody
+                  tr
+                    td(rowspan='7') Peces
+                    td Peso inicial.
+                    td Kilogramos
+                  tr
+                    td Peso final.
+                    td Kilogramos
+                  tr
+                    td Edad al sacrificio
+                    td Días
+                  tr
+                    td Densidad por metro cúbico
+                    td Peces / m
+                      sup 3
+                  tr
+                    td Ingesta total individuo.
+                    td Gramos
+                  tr
+                    td Longitud total final individuo
+                    td Centímetros
+                  tr
+                    td Mortalidad.
+                    td Porcentaje
 
     Separador
     #practicas.titulo-segundo.color-acento-contenido
@@ -501,6 +539,50 @@
         | a través de prácticas de manejo la higiénicas y seguras por parte de los trabajadores, contando con los elementos necesarios para tener procesos productivos donde se conserven los productos inocuos y saludables.
         br
 
+    ol.lista-ol--cuadro
+      li.fw-bold
+        .lista-ol--cuadro__vineta
+          span.fw-bold 
+        | Buenas prácticas pecuarias - BPP
+
+    .row
+      .col.col-1
+        img(src="@/assets/curso/tema1/caracteristicas.png")
+      .col.col-8
+        p Según el Instituto Colombiano Agropecuario, estas se relacionan con las prácticas que se deben llevar a cabo en los sistemas pecuarios para disminuir los riesgos físicos, químicos y biológicos que puedan llegar a afectar la salud de los consumidores.
+      .col.col-3.mb-4
+        img(src="@/assets/curso/tema1/1_6-logo-ica.png")
+
+    .titulo-quinto.color-acento-contenido
+      h4 Principales aspectos de las Buenas Prácticas Pecuarias - BPP
+
+    .row.justify-content-center.mt-5
+      .col.col-md-8
+        img(src="@/assets/curso/tema1/1_6-buenas-practicas-bbp.png")
+   
+    br
+
+    TabsB.color-acento-contenido.mt-5
+      .py-4.py-md-5(titulo="Principales aspectos de las Buenas Prácticas Pecuarias - BPP" :icono="require('@/assets/curso/tema1/1_6-tab-icon1.svg')")
+        .row
+          .col-md-7
+            h4 Principales aspectos de las Buenas Prácticas Pecuarias - BPP
+            p De acuerdo con la FAO, consisten en “la aplicación del conocimiento disponible a la utilización sostenible de los recursos naturales básicos para la producción, en forma benévola, de productos agrícolas alimentarios y no alimentarios inocuos y saludables, a la vez que se procuran la viabilidad económica y la estabilidad social”.
+          .col-md-4
+            img(src="@/assets/curso/tema1/1_6-tab1-imagen.jpg")
+      .py-4.py-md-5(titulo="Marco normativo de las Buenas Prácticas Pecuarias (BPP) – Buenas Prácticas Ganaderas (BPG)" :icono="require('@/assets/curso/tema1/1_6-tab-icon2.svg')")
+        .row
+          .col-md-7
+            h4 Marco normativo de las Buenas Prácticas Pecuarias (BPP) – Buenas Prácticas Ganaderas (BPG)
+            p De acuerdo con lo expuesto por el Instituto Colombiano Agropecuario, existe un marco normativo para todos los aspectos relacionados con las buenas prácticas (sean pecuarias o ganaderas) que contribuye a la disminución de los riesgos a la salud asociados con el consumo de alimentos de origen animal.
+          .col-md-4
+            img(src="@/assets/curso/tema1/1_6-tab2-imagen.jpg")
+      .py-4.py-md-5(titulo="Protocolos para acceder a la certificación" :icono="require('@/assets/curso/tema1/1_6-tab-icon3.svg')")
+        .row
+          .col-md-12
+            h4 Protocolos para acceder a la certificación
+          .col-md-12
+            img(src="@/assets/curso/tema1/1_6-tab3-imagen.svg")
 
 </template>
 
